@@ -1,0 +1,66 @@
+﻿@import "../Content/Bootstrap/less/bootstrap";
+
+
+body
+{
+    width: 100%;
+}
+
+#layout-wrapper
+{
+    .container;
+}
+
+#layout-header, #layout-navigation, #layout-featured, #layout-before-main, #layout-main-container, #layout-after-main, #layout-tripel-container, #layout-footer
+{
+    .make-row();
+}
+
+#layout-main-container
+{
+    aside
+    {
+        .make-column(2);
+    }
+
+    #layout-content
+    {
+        .make-column(6);
+
+        #messages, #before-content, #content, #after-content
+        {
+            .make-row();
+        }
+    }
+}
+
+#layout-tripel-container
+{
+    #tripel-first, #tripel-second, #tripel-third
+    {
+        .make-column(3);
+    }
+}
+
+#layout-footer
+{
+    #footer-quad
+    {
+        .make-row();
+
+        #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+        {
+        }
+    }
+
+    #footer-sig
+    {
+        .make-row();
+    }
+}
+
+
+input[type="submit"], input[type="button"], button, .button
+{
+    .btn;
+}

@@ -163,6 +163,10 @@
     <Content Include="Content\Bootstrap\js\tests\vendor\jquery.js" />
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.css" />
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.js" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Styles\site.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\Web.config" />
@@ -170,7 +174,6 @@
     <Content Include="Content\Web.config" />
     <Content Include="Theme.txt" />
     <Content Include="Theme.png" />
-    <Content Include="Placement.info" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orchard\Orchard.Framework.csproj">
@@ -245,6 +248,39 @@
     <Content Include="Content\Bootstrap\package.json" />
     <Content Include="Content\Bootstrap\README.md" />
     <Content Include="Content\Bootstrap\_config.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Insertions.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Resources.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Document.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdditionalResources.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdditionalInsertions.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\site.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ReversedPageTitleBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Branding.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\BadgeOfHonor.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,29 @@
+﻿@{
+    /// <summary>
+    /// Specify resource inclusions here
+    /// 
+    /// Override in child theme if you want to include different resources.
+    /// To just add to this set, override AdditionalResources.cshtml
+    /// </summary>
+}
+
+@using Orchard.Mvc.Html;
+@using Orchard.UI.Resources;
+
+@{
+    var theme = WorkContext.CurrentTheme;
+    /* Links
+    ***************************************************************/
+    RegisterLink(new LinkEntry { Type = "image/x-icon", Rel = "shortcut icon", Href = Url.Content(theme.Location + "/" + theme.Path + "/Images/" + "favicon.ico") });
+    SetMeta(new MetaEntry { Name = "viewport", Content = "width=device-width, initial-scale=1.0" }); // Needed for Bootstrap responsiveness
+        
+    /* Styles
+    ***************************************************************/
+    Style.Include("site.css");
+    
+    /* Scripts
+    ***************************************************************/
+    Script.Include("~/Core/Shapes/Scripts/html5.js").AtHead();
+
+    Display.AdditionalResources();
+}
