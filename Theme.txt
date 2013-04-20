@@ -1,7 +1,5 @@
-Name: Lombiq.PrettyGoodBootstrapBaseTheme
-Author: The Orchard Team
-Website: http://www.orchardproject.net
-Description: Description for the theme
+Name: Pretty Good Bootstrap Base Theme
+Author: Lombiq
+Website: http://pgbootstrapbasetheme.codeplex.com/
+Description: Base theme building on Twitter's Bootrap framework.
 Version: 1.0
-# todo: provide tags
-# Tags: Classic, Serif
