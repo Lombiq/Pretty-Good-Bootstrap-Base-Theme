@@ -164,6 +164,9 @@
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.css" />
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.js" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Styles\base.css">
+      <DependentUpon>base.less</DependentUpon>
+    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -185,7 +188,9 @@
       <Name>Orchard.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Styles\site.less" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\.travis.yml" />
     <Content Include="Content\Bootstrap\CHANGELOG.md" />
@@ -269,7 +274,7 @@
     <Content Include="Views\AdditionalInsertions.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\site.less" />
+    <Content Include="Styles\base.less" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ReversedPageTitleBuilder.cs" />

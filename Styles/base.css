@@ -1888,8 +1888,8 @@ fieldset[disabled] .btn-link:focus {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../Content/Bootstrap/less/../fonts/glyphiconshalflings-regular.eot');
-  src: url('../Content/Bootstrap/less/../fonts/glyphiconshalflings-regular.eot?#iefix') format('embedded-opentype'), url('../Content/Bootstrap/less/../fonts/glyphiconshalflings-regular.woff') format('woff'), url('../Content/Bootstrap/less/../fonts/glyphiconshalflings-regular.ttf') format('truetype'), url('../Content/Bootstrap/less/../fonts/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphiconshalflings-regular.eot');
+  src: url('../fonts/glyphiconshalflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphiconshalflings-regular.woff') format('woff'), url('../fonts/glyphiconshalflings-regular.ttf') format('truetype'), url('../fonts/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');
   font-style: normal;
   font-weight: normal;
 }
@@ -2628,7 +2628,7 @@ a.list-group-item.active .list-group-item-text {
 .panel-heading {
   margin: -15px -15px 15px;
   padding: 10px 15px;
-  font-size: 17.5px;
+  font-size: 14px * 1.25;
   font-weight: 500;
   background-color: #f5f5f5;
   border-bottom: 1px solid #dddddd;
@@ -4751,7 +4751,7 @@ body {
 @media (min-width: 768px) {
   #layout-main-container aside {
     float: left;
-    width: 16.666666666666664%;
+    width: NaN%;
   }
 }
 #layout-main-container #layout-content {
@@ -4762,7 +4762,7 @@ body {
 @media (min-width: 768px) {
   #layout-main-container #layout-content {
     float: left;
-    width: 50%;
+    width: NaN%;
   }
 }
 #layout-main-container #layout-content #messages:before,
@@ -4826,7 +4826,7 @@ body {
   #layout-tripel-container #tripel-second,
   #layout-tripel-container #tripel-third {
     float: left;
-    width: 25%;
+    width: NaN%;
   }
 }
 #layout-footer #footer-quad:before,
@@ -4887,6 +4887,19 @@ body {
 }
 /* Navigation
 ***************************************************************/
+/*.widget-menu-widget
+{
+    nav
+    {
+        .navbar;
+
+        .menu
+        {
+            .nav;
+            .navbar.nav;
+        }
+    }
+}*/
 .menu {
   margin-left: 0;
   margin-bottom: 0;
