@@ -1,0 +1,129 @@
+﻿@import "../Content/Bootstrap/less/variables";
+@import "../Content/Bootstrap/less/mixins";
+@import "../Content/Bootstrap/less/scaffolding"; // This shouldn't really need scaffolding, see: https://github.com/twitter/bootstrap/issues/7668
+@import "../Content/Bootstrap/less/grid";
+
+
+/* Structure
+***************************************************************/
+
+body
+{
+    width: 100%;
+}
+
+#layout-wrapper
+{
+    .container;
+    width: 99%;
+}
+
+#layout-header, #layout-navigation, #layout-featured, #layout-before-main, #layout-main-container, #layout-after-main, #layout-tripel-container, #layout-footer
+{
+    .make-row();
+}
+
+#layout-main-container
+{
+    #layout-content
+    {
+        .make-column(@grid-columns);
+
+        #messages, #before-content, #content, #after-content
+        {
+            .make-row();
+        }
+    }
+
+    .aside-1 &, .aside-2 &
+    {
+        #aside-first, #aside-second
+        {
+            .make-column(@grid-columns / 3);
+        }
+
+        #layout-content
+        {
+            .make-column(@grid-columns / 3 * 2);
+        }
+    }
+
+    .aside-12 &
+    {
+        #aside-first, #aside-second
+        {
+            .make-column(@grid-columns / 4);
+        }
+
+        #layout-content
+        {
+            .make-column(@grid-columns / 2);
+        }
+    }
+}
+
+#layout-tripel-container
+{
+    #tripel-first, #tripel-second, #tripel-third
+    {
+        .make-column(@grid-columns);
+    }
+
+    .tripel-123 &
+    {
+        #tripel-first, #tripel-second, #tripel-third
+        {
+            .make-column(@grid-columns / 3);
+        }
+    }
+
+    .tripel-12 &, .tripel-13 &, .tripel-23 &
+    {
+        #tripel-first, #tripel-second, #tripel-third
+        {
+            .make-column(@grid-columns / 2);
+        }
+    }
+}
+
+#layout-footer
+{
+    #footer-quad
+    {
+        .make-row();
+
+        #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+        {
+            .make-column(@grid-columns);
+        }
+
+        .split-12 &, .split-13 &, .split-14 &, .split-23 &, .split-24 &, .split-34 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 2);
+            }
+        }
+
+        .split-123 &, .split-124 &, .split-134 &, .split-234 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 3);
+            }
+        }
+
+        .split-1234 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 4);
+            }
+        }
+    }
+
+    #footer-sig
+    {
+        .make-row();
+    }
+}
