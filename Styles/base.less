@@ -12,7 +12,8 @@ body
 
 #layout-wrapper
 {
-    .container;
+    .container-fixed;
+    width: 99%;
 }
 
 #layout-header, #layout-navigation, #layout-featured, #layout-before-main, #layout-main-container, #layout-after-main, #layout-tripel-container, #layout-footer
@@ -22,18 +23,39 @@ body
 
 #layout-main-container
 {
-    aside
-    {
-        .make-column(2);
-    }
-
     #layout-content
     {
-        .make-column(6);
+        .make-column(@grid-columns);
 
         #messages, #before-content, #content, #after-content
         {
             .make-row();
+        }
+    }
+
+    .aside-1 &, .aside-2 &
+    {
+        #aside-first, #aside-second
+        {
+            .make-column(@grid-columns / 3);
+        }
+
+        #layout-content
+        {
+            .make-column(@grid-columns / 3 * 2);
+        }
+    }
+
+    .aside-12 &
+    {
+        #aside-first, #aside-second
+        {
+            .make-column(@grid-columns / 4);
+        }
+
+        #layout-content
+        {
+            .make-column(@grid-columns / 2);
         }
     }
 }
@@ -42,7 +64,23 @@ body
 {
     #tripel-first, #tripel-second, #tripel-third
     {
-        .make-column(3);
+        .make-column(@grid-columns);
+    }
+
+    .tripel-123 &
+    {
+        #tripel-first, #tripel-second, #tripel-third
+        {
+            .make-column(@grid-columns / 3);
+        }
+    }
+
+    .tripel-12 &, .tripel-13 &, .tripel-23 &
+    {
+        #tripel-first, #tripel-second, #tripel-third
+        {
+            .make-column(@grid-columns / 2);
+        }
     }
 }
 
@@ -54,6 +92,31 @@ body
 
         #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
         {
+            .make-column(@grid-columns);
+        }
+
+        .split-12 &, .split-13 &, .split-14 &, .split-23 &, .split-24 &, .split-34 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 2);
+            }
+        }
+
+        .split-123 &, .split-124 &, .split-134 &, .split-234 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 3);
+            }
+        }
+
+        .split-1234 &
+        {
+            #footer-quad-first, #footer-quad-second, #footer-quad-third, #footer-quad-fourth
+            {
+                .make-column(@grid-columns / 4);
+            }
         }
     }
 
