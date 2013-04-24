@@ -167,8 +167,20 @@
     <Content Include="Styles\base.css">
       <DependentUpon>base.less</DependentUpon>
     </Content>
+    <Content Include="Styles\general.css">
+      <DependentUpon>general.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\navigation.css">
+      <DependentUpon>navigation.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\reset.css">
+      <DependentUpon>reset.less</DependentUpon>
+    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\structure.css">
+      <DependentUpon>structure.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Views\Web.config" />
@@ -287,6 +299,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\MenuItem.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\structure.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\reset.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\general.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\navigation.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
