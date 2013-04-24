@@ -167,6 +167,9 @@
     <Content Include="Styles\base.css">
       <DependentUpon>base.less</DependentUpon>
     </Content>
+    <Content Include="Styles\common.css">
+      <DependentUpon>common.less</DependentUpon>
+    </Content>
     <Content Include="Styles\general.css">
       <DependentUpon>general.less</DependentUpon>
     </Content>
@@ -175,9 +178,6 @@
     </Content>
     <Content Include="Styles\reset.css">
       <DependentUpon>reset.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\site.css">
-      <DependentUpon>site.less</DependentUpon>
     </Content>
     <Content Include="Styles\structure.css">
       <DependentUpon>structure.less</DependentUpon>
@@ -199,9 +199,6 @@
       <Project>{9916839C-39FC-4CEB-A5AF-89CA7E87119F}</Project>
       <Name>Orchard.Core</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\site.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\.travis.yml" />
@@ -311,6 +308,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\navigation.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\common.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
