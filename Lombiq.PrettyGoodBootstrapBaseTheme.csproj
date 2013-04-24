@@ -164,9 +164,6 @@
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.css" />
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.js" />
     <Content Include="Images\favicon.ico" />
-    <Content Include="Styles\base.css">
-      <DependentUpon>base.less</DependentUpon>
-    </Content>
     <Content Include="Styles\common.css">
       <DependentUpon>common.less</DependentUpon>
     </Content>
@@ -178,6 +175,9 @@
     </Content>
     <Content Include="Styles\reset.css">
       <DependentUpon>reset.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\site.css">
+      <DependentUpon>site.less</DependentUpon>
     </Content>
     <Content Include="Styles\structure.css">
       <DependentUpon>structure.less</DependentUpon>
@@ -283,7 +283,7 @@
     <Content Include="Views\AdditionalInsertions.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\base.less" />
+    <Content Include="Styles\site.less" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ReversedPageTitleBuilder.cs" />
