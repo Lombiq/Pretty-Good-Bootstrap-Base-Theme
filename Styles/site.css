@@ -220,13 +220,13 @@ table {
     display: none;
   }
 }
+/* Structure
+***************************************************************/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* Structure
-***************************************************************/
 body {
   width: 100%;
 }
@@ -296,7 +296,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   #layout-main-container #layout-content {
     float: left;
     width: 100%;
@@ -338,7 +338,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .aside-1 #layout-main-container #aside-first,
   .aside-2 #layout-main-container #aside-first,
   .aside-1 #layout-main-container #aside-second,
@@ -353,7 +353,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .aside-1 #layout-main-container #layout-content,
   .aside-2 #layout-main-container #layout-content {
     float: left;
@@ -366,7 +366,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .aside-12 #layout-main-container #aside-first,
   .aside-12 #layout-main-container #aside-second {
     float: left;
@@ -378,7 +378,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .aside-12 #layout-main-container #layout-content {
     float: left;
     width: 50%;
@@ -391,7 +391,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   #layout-tripel-container #tripel-first,
   #layout-tripel-container #tripel-second,
   #layout-tripel-container #tripel-third {
@@ -406,7 +406,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tripel-123 #layout-tripel-container #tripel-first,
   .tripel-123 #layout-tripel-container #tripel-second,
   .tripel-123 #layout-tripel-container #tripel-third {
@@ -427,7 +427,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .tripel-12 #layout-tripel-container #tripel-first,
   .tripel-13 #layout-tripel-container #tripel-first,
   .tripel-23 #layout-tripel-container #tripel-first,
@@ -465,7 +465,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   #layout-footer #footer-quad #footer-quad-first,
   #layout-footer #footer-quad #footer-quad-second,
   #layout-footer #footer-quad #footer-quad-third,
@@ -502,7 +502,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .split-12 #layout-footer #footer-quad #footer-quad-first,
   .split-13 #layout-footer #footer-quad #footer-quad-first,
   .split-14 #layout-footer #footer-quad #footer-quad-first,
@@ -551,7 +551,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .split-123 #layout-footer #footer-quad #footer-quad-first,
   .split-124 #layout-footer #footer-quad #footer-quad-first,
   .split-134 #layout-footer #footer-quad #footer-quad-first,
@@ -580,7 +580,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .split-1234 #layout-footer #footer-quad #footer-quad-first,
   .split-1234 #layout-footer #footer-quad #footer-quad-second,
   .split-1234 #layout-footer #footer-quad #footer-quad-third,
@@ -2754,7 +2754,7 @@ fieldset[disabled] .button.active {
   width: 1%;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .widget-menu-widget .menu li {
     display: block;
     width: auto;
