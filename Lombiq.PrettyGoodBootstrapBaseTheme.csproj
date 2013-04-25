@@ -167,8 +167,8 @@
     <Content Include="Styles\common.css">
       <DependentUpon>common.less</DependentUpon>
     </Content>
-    <Content Include="Styles\general.css">
-      <DependentUpon>general.less</DependentUpon>
+    <Content Include="Styles\forms.css">
+      <DependentUpon>forms.less</DependentUpon>
     </Content>
     <Content Include="Styles\navigation.css">
       <DependentUpon>navigation.less</DependentUpon>
@@ -184,6 +184,9 @@
     </Content>
     <Content Include="Styles\structure.css">
       <DependentUpon>structure.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\type.css">
+      <DependentUpon>type.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Views\Web.config" />
@@ -304,9 +307,6 @@
     <Content Include="Styles\reset.less" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\general.less" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Styles\navigation.less" />
   </ItemGroup>
   <ItemGroup>
@@ -314,6 +314,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\responsive.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\type.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\forms.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\general.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
