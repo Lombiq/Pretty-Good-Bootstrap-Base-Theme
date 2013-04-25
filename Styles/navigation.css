@@ -607,7 +607,6 @@
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  width: 100%;
 }
 .widget-menu-widget .menu:before,
 .widget-menu-widget .menu:after {
@@ -672,15 +671,17 @@
   color: #fff;
   background-color: #428bca;
 }
-.widget-menu-widget .menu > li {
+.widget-menu-widget .menu li {
   float: none;
-  display: table-cell;
-  width: 1%;
-  text-align: center;
 }
-@media (max-width: 768px) {
-  .widget-menu-widget .menu li {
-    display: block;
-    width: auto;
+@media (min-width: 768px) {
+  .widget-menu-widget .menu {
+    width: 100%;
+  }
+  .widget-menu-widget .menu > li {
+    float: none;
+    display: table-cell;
+    width: 1%;
+    text-align: center;
   }
 }
