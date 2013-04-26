@@ -1,7 +1,5 @@
 ﻿/* Structure
 ***************************************************************/
-/* Variables */
-/* Declarations */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -69,6 +67,19 @@ body {
 #layout-footer .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+#header,
+#layout-navigation {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 48rem) {
+  #header,
+  #layout-navigation {
+    float: left;
+    width: 100%;
+  }
 }
 #layout-main-container #layout-content {
   min-height: 1px;
@@ -368,6 +379,11 @@ body {
     width: 25%;
   }
 }
+#layout-footer #footer-sig {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 #layout-footer #footer-sig:before,
 #layout-footer #footer-sig:after {
   content: " ";
@@ -383,6 +399,12 @@ body {
 #layout-footer #footer-sig .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+@media (min-width: 48rem) {
+  #layout-footer #footer-sig {
+    float: left;
+    width: 100%;
+  }
 }
 #layout-footer #footer-sig .credits,
 #layout-footer #footer-sig .user-display {

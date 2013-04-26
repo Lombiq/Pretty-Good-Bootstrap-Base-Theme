@@ -4,12 +4,7 @@
 /* Structure
 ***************************************************************/
 
-/* Variables */
-// This is roughly equivalent to the default pixel-based value but also works with zooming in Chrome
-@grid-float-breakpoint: 48rem;
 
-
-/* Declarations */
 *
 {
     .box-sizing(border-box);
@@ -28,6 +23,12 @@ body
 #layout-header, #layout-navigation, #layout-featured, #layout-before-main, #layout-main-container, #layout-after-main, #layout-tripel-container, #layout-footer
 {
     .make-row();
+}
+
+// Single-columns
+#header, #layout-navigation
+{
+    .make-column(@grid-columns);
 }
 
 #layout-main-container
@@ -132,6 +133,7 @@ body
     #footer-sig
     {
         .make-row();
+        .make-column(@grid-columns);
 
         .credits, .user-display
         {
@@ -147,5 +149,5 @@ body
 
 .zone
 {
-    padding: 1rem;
+    padding: @zone-padding;
 }
