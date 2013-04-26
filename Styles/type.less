@@ -5,9 +5,15 @@
 /* Typography
 ***************************************************************/
 
+/* Headings */
 .zone-content .content-item:first-of-type header
 {
     .page-header;
+
+    h1
+    {
+        font-size: (@font-size-base * 2.9);
+    }
 }
 
 .widget
@@ -15,4 +21,14 @@
     h1:extend(h1 small)
     {
     }
+
+    .projection-list h1:extend(h2 small)
+    {
+    }
+}
+
+/* General */
+#branding
+{
+    font-weight: bold;
 }

@@ -674,7 +674,7 @@
 .widget-menu-widget .menu li {
   float: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .widget-menu-widget .menu {
     width: 100%;
   }
