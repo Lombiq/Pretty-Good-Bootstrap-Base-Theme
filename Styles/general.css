@@ -140,6 +140,7 @@ h6 small,
 .h4 small,
 .h5 small,
 .h6 small,
+.zone-content .projection-list h1,
 .widget h1,
 .widget .projection-list h1 {
   font-weight: normal;
@@ -188,6 +189,7 @@ h6,
 }
 h1 small,
 .h1 small,
+.zone-content .projection-list h1,
 .widget h1 {
   font-size: 24.5px;
 }
@@ -341,10 +343,16 @@ address {
 }
 /* Typography
 ***************************************************************/
-.zone-content .content-item:first-of-type header {
+/* Headings */
+.zone-content > .content-item:first-of-type > header h1,
+.zone-content > h1 {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
+}
+/* General */
+#branding {
+  font-weight: bold;
 }
 code,
 pre {
@@ -1495,16 +1503,3 @@ fieldset ol li {
 }
 /* General
 ***************************************************************/
-/* Metadata */
-.metadata {
-  margin: 0 0 .9230em 0;
-  color: #999;
-  font-size: 0.846em;
-}
-.metadata .published {
-  display: inline;
-  margin: 0 .4615em 0 0;
-}
-.metadata .comment-count {
-  display: inline;
-}

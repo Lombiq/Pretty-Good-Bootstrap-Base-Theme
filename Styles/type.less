@@ -6,13 +6,18 @@
 ***************************************************************/
 
 /* Headings */
-.zone-content .content-item:first-of-type header
+.zone-content
 {
-    .page-header;
-
-    h1
+    > .content-item:first-of-type > header h1, > h1
     {
-        font-size: (@font-size-base * 2.9);
+        .page-header;
+    }
+
+    .projection-list
+    {
+        h1:extend(h1 small)
+        {
+        }
     }
 }
 

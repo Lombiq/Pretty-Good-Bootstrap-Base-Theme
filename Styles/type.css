@@ -84,6 +84,7 @@ h6 small,
 .h4 small,
 .h5 small,
 .h6 small,
+.zone-content .projection-list h1,
 .widget h1,
 .widget .projection-list h1 {
   font-weight: normal;
@@ -132,6 +133,7 @@ h6,
 }
 h1 small,
 .h1 small,
+.zone-content .projection-list h1,
 .widget h1 {
   font-size: 24.5px;
 }
@@ -286,13 +288,11 @@ address {
 /* Typography
 ***************************************************************/
 /* Headings */
-.zone-content .content-item:first-of-type header {
+.zone-content > .content-item:first-of-type > header h1,
+.zone-content > h1 {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
-}
-.zone-content .content-item:first-of-type header h1 {
-  font-size: 40.6px;
 }
 /* General */
 #branding {

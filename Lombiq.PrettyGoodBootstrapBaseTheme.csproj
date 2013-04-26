@@ -173,6 +173,9 @@
     <Content Include="Styles\general.css">
       <DependentUpon>general.less</DependentUpon>
     </Content>
+    <Content Include="Styles\misc.css">
+      <DependentUpon>misc.less</DependentUpon>
+    </Content>
     <Content Include="Styles\navigation.css">
       <DependentUpon>navigation.less</DependentUpon>
     </Content>
@@ -332,6 +335,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\variables.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\misc.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
