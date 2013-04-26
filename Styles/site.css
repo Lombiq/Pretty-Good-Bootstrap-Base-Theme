@@ -998,6 +998,9 @@ address {
 #branding {
   font-weight: bold;
 }
+p {
+  text-align: justify;
+}
 code,
 pre {
   padding: 0 3px 2px;
@@ -2965,7 +2968,6 @@ fieldset ol li {
 .projection-list,
 .content-items {
   list-style-type: none;
-  padding-left: 0;
 }
 /* Comments */
 #comments {
