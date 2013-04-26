@@ -127,6 +127,10 @@
 .zone-content ol {
   padding-left: 1em;
 }
+.projection-list,
+.content-items {
+  list-style-type: none;
+}
 /* Comments */
 #comments {
   margin: 1.846em 0 0 0;

@@ -781,8 +781,10 @@ h6 small,
 .h5 small,
 .h6 small,
 .zone-content .projection-list h1,
+.zone-content .content-items h1,
 .widget h1,
-.widget .projection-list h1 {
+.widget .projection-list h1,
+.widget .content-items h1 {
   font-weight: normal;
   line-height: 1;
   color: #999999;
@@ -830,12 +832,14 @@ h6,
 h1 small,
 .h1 small,
 .zone-content .projection-list h1,
+.zone-content .content-items h1,
 .widget h1 {
   font-size: 24.5px;
 }
 h2 small,
 .h2 small,
-.widget .projection-list h1 {
+.widget .projection-list h1,
+.widget .content-items h1 {
   font-size: 17.5px;
 }
 h3 small,
@@ -2957,6 +2961,11 @@ fieldset ol li {
 .zone-content ul,
 .zone-content ol {
   padding-left: 1em;
+}
+.projection-list,
+.content-items {
+  list-style-type: none;
+  padding-left: 0;
 }
 /* Comments */
 #comments {
