@@ -2836,6 +2836,32 @@ fieldset ol li {
     text-align: center;
   }
 }
+.breadcrumb {
+  padding: 8px 15px;
+  margin: 0 0 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.breadcrumb > li {
+  display: inline-block;
+  text-shadow: 0 1px 0 #fff;
+}
+.breadcrumb > li:after {
+  display: inline-block;
+  content: "\00a0 /";
+  padding: 0 5px;
+  color: #ccc;
+}
+.breadcrumb > li:last-child:after {
+  content: "";
+}
+.breadcrumb > .active,
+.breadcrumb > .current {
+  color: #999999;
+}
+/* Breadcrumbs
+***************************************************************/
 .pager {
   margin: 20px 0;
   list-style: none;
