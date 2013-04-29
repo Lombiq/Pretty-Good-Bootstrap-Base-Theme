@@ -86,6 +86,7 @@
 .metadata .comment-count {
   display: inline;
 }
+/* Alerts */
 .validation-summary-errors {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
@@ -122,6 +123,68 @@
 .validation-summary-errors > p > a {
   color: #953b39;
 }
+.message {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  color: #c09853;
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  border-radius: 4px;
+}
+.message h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.message hr {
+  border-top-color: #f8e5be;
+}
+.message > a,
+.message > p > a {
+  font-weight: 500;
+  color: #a47e3c;
+}
+.message .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.message.message-Error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+.message.message-Error hr {
+  border-top-color: #e6c1c7;
+}
+.message.message-Error > a,
+.message.message-Error > p > a {
+  color: #953b39;
+}
+.message.message-Warning {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+.message.message-Warning hr {
+  border-top-color: #a6e1ec;
+}
+.message.message-Warning > a,
+.message.message-Warning > p > a {
+  color: #2d6987;
+}
+.message.message-Information {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+.message.message-Information hr {
+  border-top-color: #c9e2b3;
+}
+.message.message-Information > a,
+.message.message-Information > p > a {
+  color: #356635;
+}
 /* Lists */
 .zone-content ul,
 .zone-content ol {
@@ -129,7 +192,8 @@
 }
 .projection-list,
 .content-items,
-.widget-projection-widget > ul {
+.widget-projection-widget > ul,
+.projection-page > ul {
   list-style-type: none;
   margin-left: 0;
 }

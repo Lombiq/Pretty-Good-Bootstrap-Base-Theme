@@ -24,10 +24,31 @@
     }
 }
 
+/* Alerts */
 .validation-summary-errors
 {
     .alert;
     .alert-danger;
+}
+
+.message
+{
+    .alert;
+
+    &.message-Error
+    {
+        .alert-danger;
+    }
+
+    &.message-Warning
+    {
+        .alert-info;
+    }
+
+    &.message-Information
+    {
+        .alert-success;
+    }
 }
 
 /* Lists */
@@ -39,7 +60,7 @@
     }
 }
 
-.projection-list, .content-items, .widget-projection-widget > ul
+.projection-list, .content-items, .widget-projection-widget > ul, .projection-page > ul
 {
     list-style-type: none;
     margin-left: 0;

@@ -179,6 +179,9 @@
     <Content Include="Styles\navigation.css">
       <DependentUpon>navigation.less</DependentUpon>
     </Content>
+    <Content Include="Styles\pagination.css">
+      <DependentUpon>pagination.less</DependentUpon>
+    </Content>
     <Content Include="Styles\reset.css">
       <DependentUpon>reset.less</DependentUpon>
     </Content>
@@ -338,6 +341,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\misc.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\pagination.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\breadcrumbs.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
