@@ -3004,7 +3004,7 @@ fieldset ol li {
   margin: 0 0 1.2em 0;
   border: none;
 }
-.comment-form li {
+.comment-form #comment-by li {
   border: inherit;
   margin: inherit;
   padding: inherit;
