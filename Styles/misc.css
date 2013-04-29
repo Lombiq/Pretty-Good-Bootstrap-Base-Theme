@@ -76,7 +76,7 @@
 /* Metadata */
 .metadata {
   margin: 0 0 .9230em 0;
-  color: #999;
+  color: #999999;
   font-size: 0.846em;
 }
 .metadata .published {
@@ -128,8 +128,10 @@
   padding-left: 1em;
 }
 .projection-list,
-.content-items {
+.content-items,
+.widget-projection-widget > ul {
   list-style-type: none;
+  margin-left: 0;
 }
 /* Comments */
 #comments {
@@ -148,7 +150,7 @@
 .comments li {
   margin: .9230em 0 0 0;
   padding: 1.25%;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #999999;
 }
 .comment {
   margin: 0;
@@ -166,7 +168,7 @@
   margin: 0 0 1.2em 0;
   border: none;
 }
-.comment-form li {
+.comment-form #comment-by li {
   border: inherit;
   margin: inherit;
   padding: inherit;
