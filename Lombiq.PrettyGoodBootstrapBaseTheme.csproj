@@ -188,9 +188,6 @@
     <Content Include="Styles\reset.css">
       <DependentUpon>reset.less</DependentUpon>
     </Content>
-    <Content Include="Styles\responsive.css">
-      <DependentUpon>responsive.less</DependentUpon>
-    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -326,9 +323,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\common.less" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Styles\responsive.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\type.less" />
