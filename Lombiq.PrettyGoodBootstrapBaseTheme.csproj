@@ -164,6 +164,9 @@
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.css" />
     <Content Include="Content\Bootstrap\js\tests\vendor\qunit.js" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Styles\breadcrumbs.css">
+      <DependentUpon>breadcrumbs.less</DependentUpon>
+    </Content>
     <Content Include="Styles\common.css">
       <DependentUpon>common.less</DependentUpon>
     </Content>
