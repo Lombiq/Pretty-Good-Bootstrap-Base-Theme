@@ -77,7 +77,6 @@ body {
 @media (min-width: 48rem) {
   #header,
   #layout-navigation {
-    float: left;
     width: 100%;
   }
 }
@@ -88,7 +87,6 @@ body {
 }
 @media (min-width: 48rem) {
   #layout-main-container #layout-content {
-    float: left;
     width: 100%;
   }
 }
@@ -133,7 +131,6 @@ body {
   .aside-2 #layout-main-container #aside-first,
   .aside-1 #layout-main-container #aside-second,
   .aside-2 #layout-main-container #aside-second {
-    float: left;
     width: 33.33333333333333%;
   }
 }
@@ -146,7 +143,6 @@ body {
 @media (min-width: 48rem) {
   .aside-1 #layout-main-container #layout-content,
   .aside-2 #layout-main-container #layout-content {
-    float: left;
     width: 66.66666666666666%;
   }
 }
@@ -159,7 +155,6 @@ body {
 @media (min-width: 48rem) {
   .aside-12 #layout-main-container #aside-first,
   .aside-12 #layout-main-container #aside-second {
-    float: left;
     width: 25%;
   }
 }
@@ -170,7 +165,6 @@ body {
 }
 @media (min-width: 48rem) {
   .aside-12 #layout-main-container #layout-content {
-    float: left;
     width: 50%;
   }
 }
@@ -185,7 +179,6 @@ body {
   #layout-tripel-container #tripel-first,
   #layout-tripel-container #tripel-second,
   #layout-tripel-container #tripel-third {
-    float: left;
     width: 100%;
   }
 }
@@ -200,7 +193,6 @@ body {
   .tripel-123 #layout-tripel-container #tripel-first,
   .tripel-123 #layout-tripel-container #tripel-second,
   .tripel-123 #layout-tripel-container #tripel-third {
-    float: left;
     width: 33.33333333333333%;
   }
 }
@@ -227,7 +219,6 @@ body {
   .tripel-12 #layout-tripel-container #tripel-third,
   .tripel-13 #layout-tripel-container #tripel-third,
   .tripel-23 #layout-tripel-container #tripel-third {
-    float: left;
     width: 50%;
   }
 }
@@ -260,7 +251,6 @@ body {
   #layout-footer #footer-quad #footer-quad-second,
   #layout-footer #footer-quad #footer-quad-third,
   #layout-footer #footer-quad #footer-quad-fourth {
-    float: left;
     width: 100%;
   }
 }
@@ -317,7 +307,6 @@ body {
   .split-23 #layout-footer #footer-quad #footer-quad-fourth,
   .split-24 #layout-footer #footer-quad #footer-quad-fourth,
   .split-34 #layout-footer #footer-quad #footer-quad-fourth {
-    float: left;
     width: 50%;
   }
 }
@@ -358,7 +347,6 @@ body {
   .split-124 #layout-footer #footer-quad #footer-quad-fourth,
   .split-134 #layout-footer #footer-quad #footer-quad-fourth,
   .split-234 #layout-footer #footer-quad #footer-quad-fourth {
-    float: left;
     width: 33.33333333333333%;
   }
 }
@@ -375,7 +363,6 @@ body {
   .split-1234 #layout-footer #footer-quad #footer-quad-second,
   .split-1234 #layout-footer #footer-quad #footer-quad-third,
   .split-1234 #layout-footer #footer-quad #footer-quad-fourth {
-    float: left;
     width: 25%;
   }
 }
@@ -402,7 +389,6 @@ body {
 }
 @media (min-width: 48rem) {
   #layout-footer #footer-sig {
-    float: left;
     width: 100%;
   }
 }
