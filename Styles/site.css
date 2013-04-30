@@ -291,6 +291,9 @@ body {
 }
 #header,
 #layout-navigation {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -302,6 +305,9 @@ body {
   }
 }
 #layout-main-container #layout-content {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -343,6 +349,9 @@ body {
 .aside-2 #layout-main-container #aside-first,
 .aside-1 #layout-main-container #aside-second,
 .aside-2 #layout-main-container #aside-second {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -357,6 +366,9 @@ body {
 }
 .aside-1 #layout-main-container #layout-content,
 .aside-2 #layout-main-container #layout-content {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -369,6 +381,9 @@ body {
 }
 .aside-12 #layout-main-container #aside-first,
 .aside-12 #layout-main-container #aside-second {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -380,6 +395,9 @@ body {
   }
 }
 .aside-12 #layout-main-container #layout-content {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -392,6 +410,9 @@ body {
 #layout-tripel-container #tripel-first,
 #layout-tripel-container #tripel-second,
 #layout-tripel-container #tripel-third {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -406,6 +427,9 @@ body {
 .tripel-123 #layout-tripel-container #tripel-first,
 .tripel-123 #layout-tripel-container #tripel-second,
 .tripel-123 #layout-tripel-container #tripel-third {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -426,6 +450,9 @@ body {
 .tripel-12 #layout-tripel-container #tripel-third,
 .tripel-13 #layout-tripel-container #tripel-third,
 .tripel-23 #layout-tripel-container #tripel-third {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -463,6 +490,9 @@ body {
 #layout-footer #footer-quad #footer-quad-second,
 #layout-footer #footer-quad #footer-quad-third,
 #layout-footer #footer-quad #footer-quad-fourth {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -499,6 +529,9 @@ body {
 .split-23 #layout-footer #footer-quad #footer-quad-fourth,
 .split-24 #layout-footer #footer-quad #footer-quad-fourth,
 .split-34 #layout-footer #footer-quad #footer-quad-fourth {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -547,6 +580,9 @@ body {
 .split-124 #layout-footer #footer-quad #footer-quad-fourth,
 .split-134 #layout-footer #footer-quad #footer-quad-fourth,
 .split-234 #layout-footer #footer-quad #footer-quad-fourth {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -575,6 +611,9 @@ body {
 .split-1234 #layout-footer #footer-quad #footer-quad-second,
 .split-1234 #layout-footer #footer-quad #footer-quad-third,
 .split-1234 #layout-footer #footer-quad #footer-quad-fourth {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -588,6 +627,9 @@ body {
   }
 }
 #layout-footer #footer-sig {
+  position: relative;
+  float: left;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
