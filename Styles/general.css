@@ -1508,5 +1508,8 @@ fieldset ol {
 fieldset ol li {
   margin: 0 0 .4615em 0;
 }
+fieldset ol li:last-child {
+  margin: 0;
+}
 /* General
 ***************************************************************/
