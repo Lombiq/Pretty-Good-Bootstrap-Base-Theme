@@ -1500,6 +1500,9 @@ label.forcheckbox {
   margin: 0 0 0 .4em;
   display: inline;
 }
+fieldset {
+  margin: 0 0 .923em 0;
+}
 fieldset ol {
   list-style-type: none;
   padding: 0;
@@ -1507,9 +1510,6 @@ fieldset ol {
 }
 fieldset ol li {
   margin: 0 0 .4615em 0;
-}
-fieldset ol li:last-child {
-  margin: 0;
 }
 /* General
 ***************************************************************/
