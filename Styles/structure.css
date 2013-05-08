@@ -69,7 +69,9 @@ body {
   margin-right: -15px;
 }
 #header,
-#layout-navigation {
+#layout-navigation,
+#layout-before-main,
+#layout-featured {
   position: relative;
   float: left;
   width: 100%;
@@ -79,7 +81,9 @@ body {
 }
 @media (min-width: 48rem) {
   #header,
-  #layout-navigation {
+  #layout-navigation,
+  #layout-before-main,
+  #layout-featured {
     width: 100%;
   }
 }
