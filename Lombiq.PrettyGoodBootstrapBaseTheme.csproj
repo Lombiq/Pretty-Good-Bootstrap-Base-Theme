@@ -200,6 +200,7 @@
     <Content Include="Styles\variables.css">
       <DependentUpon>variables.less</DependentUpon>
     </Content>
+    <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\Web.config" />
