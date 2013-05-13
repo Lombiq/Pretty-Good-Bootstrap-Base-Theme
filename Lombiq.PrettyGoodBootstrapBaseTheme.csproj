@@ -305,9 +305,6 @@
     <Content Include="Styles\site.less" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReversedPageTitleBuilder.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Branding.cshtml" />
   </ItemGroup>
   <ItemGroup>
