@@ -2171,15 +2171,18 @@ label.forcheckbox {
   margin: 0 0 0 .4em;
   display: inline;
 }
-fieldset {
+fieldset,
+.zone-content fieldset {
   margin: 0 0 .923em 0;
 }
-fieldset ol {
+fieldset ol,
+.zone-content fieldset ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-fieldset ol li {
+fieldset ol li,
+.zone-content fieldset ol li {
   margin: 0 0 .4615em 0;
 }
 /* General
