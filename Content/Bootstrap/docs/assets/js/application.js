@@ -14,21 +14,18 @@
     })
 
     // back to top
-    // setTimeout(function () {
-    //   $('.bs-docs-sidenav').affix({
-    //     offset: {
-    //       top: function () { return $window.width() <= 980 ? 290 : 210 }
-    //     , bottom: 270
-    //     }
-    //   })
-    // }, 100)
-
     setTimeout(function () {
-      $('.bs-docs-top').affix()
+      $('.bs-sidebar').affix({
+        offset: {
+          top: function () { return $window.width() <= 980 ? 290 : 210 }
+        , bottom: 270
+        }
+      })
     }, 100)
 
-    // make code pretty
-    window.prettyPrint && prettyPrint()
+    setTimeout(function () {
+      $('.bs-top').affix()
+    }, 100)
 
     // add-ons
     $('.add-on :checkbox').on('click', function () {
