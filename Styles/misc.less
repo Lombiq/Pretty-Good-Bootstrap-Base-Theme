@@ -52,11 +52,16 @@
 }
 
 /* Lists */
+ul, ol
+{
+    padding-left: 0;
+}
+
 .zone-content
 {
     ul, ol
     {
-        padding-left: 1em;
+        padding-left: 2em;
     }
 }
 
@@ -64,6 +69,7 @@
 {
     list-style-type: none;
     margin-left: 0;
+    padding-left: 0;
 }
 
 /* Comments */
@@ -82,7 +88,7 @@
 .comments
 {
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
     list-style: none;
 
     li
@@ -128,4 +134,10 @@
 .comment-count
 {
     font-size: 1.231em;
+}
+
+/* Images */
+img
+{
+    &:extend(.img-responsive); // Making all images responsive
 }

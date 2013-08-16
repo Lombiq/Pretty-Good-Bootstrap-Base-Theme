@@ -3,18 +3,17 @@
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 16.099999999999998px;
   font-weight: 200;
   line-height: 1.4;
 }
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
+}
 small {
   font-size: 85%;
-}
-strong {
-  font-weight: bold;
-}
-em {
-  font-style: italic;
 }
 cite {
   font-style: normal;
@@ -22,30 +21,20 @@ cite {
 .text-muted {
   color: #999999;
 }
-a.text-muted:hover,
-a.text-muted:focus {
-  color: #808080;
+.text-primary {
+  color: #428bca;
 }
 .text-warning {
   color: #c09853;
 }
-a.text-warning:hover,
-a.text-warning:focus {
-  color: #a47e3c;
-}
 .text-danger {
   color: #b94a48;
-}
-a.text-danger:hover,
-a.text-danger:focus {
-  color: #953b39;
 }
 .text-success {
   color: #468847;
 }
-a.text-success:hover,
-a.text-success:focus {
-  color: #356635;
+.text-info {
+  color: #3a87ad;
 }
 .text-left {
   text-align: left;
@@ -68,6 +57,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -154,24 +144,21 @@ h4 small,
 }
 ul,
 ol {
-  padding: 0;
-  margin: 0 0 10px 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 ul ul,
+ol ul,
 ul ol,
-ol ol,
-ol ul {
+ol ol {
   margin-bottom: 0;
 }
-li {
-  line-height: 1.428571429;
-}
 .list-unstyled {
-  margin-left: 0;
+  padding-left: 0;
   list-style: none;
 }
 .list-inline {
-  margin-left: 0;
+  padding-left: 0;
   list-style: none;
 }
 .list-inline > li {
@@ -190,38 +177,33 @@ dt {
   font-weight: bold;
 }
 dd {
-  margin-left: 10px;
+  margin-left: 0;
 }
-.dl-horizontal:before,
-.dl-horizontal:after {
-  content: " ";
-  /* 1 */
-
-  display: table;
-  /* 2 */
-
-}
-.dl-horizontal:after {
-  clear: both;
-}
-.dl-horizontal dt {
-  float: left;
-  width: 160px;
-  clear: left;
-  text-align: right;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.dl-horizontal dd {
-  margin-left: 180px;
-}
-hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+@media (min-width: 48em) {
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal dd {
+    margin-left: 180px;
+  }
+  .dl-horizontal dd:before,
+  .dl-horizontal dd:after {
+    content: " ";
+    /* 1 */
+  
+    display: table;
+    /* 2 */
+  
+  }
+  .dl-horizontal dd:after {
+    clear: both;
+  }
 }
 abbr[title],
 abbr[data-original-title] {
@@ -254,7 +236,6 @@ blockquote small:before {
   content: '\2014 \00A0';
 }
 blockquote.pull-right {
-  float: right;
   padding-right: 15px;
   padding-left: 0;
   border-right: 5px solid #eeeeee;

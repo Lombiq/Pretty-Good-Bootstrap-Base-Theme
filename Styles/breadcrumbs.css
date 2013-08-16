@@ -1,22 +1,17 @@
 ﻿.breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 20px;
+  margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 4px;
 }
 .breadcrumb > li {
   display: inline-block;
-  text-shadow: 0 1px 0 #fff;
 }
-.breadcrumb > li:after {
-  display: inline-block;
-  content: "\00a0 /";
+.breadcrumb > li + li:before {
+  content: "/\00a0";
   padding: 0 5px;
-  color: #ccc;
-}
-.breadcrumb > li:last-child:after {
-  display: none;
+  color: #cccccc;
 }
 .breadcrumb > .active,
 .breadcrumb > .current {
