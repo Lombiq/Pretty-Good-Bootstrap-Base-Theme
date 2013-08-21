@@ -17,29 +17,65 @@ body
 
 #layout-wrapper
 {
+    // The layout styles are separated so it's clearer how the rows and columns are wrapped.
     .container-fixed();
+
+    #layout-header
+    {
+        .make-row();
+
+        #header
+        {
+            .make-column(@grid-columns);
+        }
+    }
+
+    #layout-navigation
+    {
+        .make-row();
+
+        .zone-navigation
+        {
+            .make-column(@grid-columns);
+        }
+    }
+
+    #layout-featured
+    {
+        .make-row();
+
+        .zone-featured
+        {
+            .make-column(@grid-columns);
+        }
+    }
+
+    #layout-before-main
+    {
+        .make-row();
+
+        .zone-before-main
+        {
+            .make-column(@grid-columns);
+        }
+    }
 }
 
-#layout-header, #layout-navigation, #layout-featured, #layout-before-main, #layout-main-container, #layout-after-main, #layout-tripel-container, #layout-footer
-{
-    .make-row();
-}
-
-// Single-columns
-#header, #layout-navigation, #layout-before-main, #layout-featured
-{
-    .make-column(@grid-columns);
-}
-
+// Everything below should be inside #layout-wrapper too, but the the & Combinator would mess it up, see: https://github.com/less/less.js/issues/1500
 #layout-main-container
 {
+    .make-row();
+
     #layout-content
     {
         .make-column(@grid-columns);
 
+        // Column-less rows
         #messages, #before-content, #content, #after-content
         {
             .make-row();
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 
@@ -70,8 +106,20 @@ body
     }
 }
 
+#layout-after-main
+{
+    .make-row();
+
+    .zone-after-main
+    {
+        .make-column(@grid-columns);
+    }
+}
+
 #layout-tripel-container
 {
+    .make-row();
+
     #tripel-first, #tripel-second, #tripel-third
     {
         .make-column(@grid-columns);
@@ -133,21 +181,20 @@ body
     #footer-sig
     {
         .make-row();
-        .make-column(@grid-columns);
 
-        .credits, .user-display
+        .zone-footer
         {
-            display: inline-block;
-        }
+            .make-column(@grid-columns);
 
-        .user-display
-        {
-            margin-left: @grid-gutter-width;
+            .credits, .user-display
+            {
+                display: inline-block;
+            }
+
+            .user-display
+            {
+                margin-left: @grid-gutter-width;
+            }
         }
     }
-}
-
-.zone
-{
-    padding: @zone-padding;
 }

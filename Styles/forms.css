@@ -260,7 +260,7 @@ textarea.input-lg {
 }
 .form-control-static {
   margin-bottom: 0;
-  padding-top: 6px;
+  padding-top: 7px;
 }
 .help-block {
   display: block;
@@ -291,9 +291,17 @@ textarea.input-lg {
   }
 }
 .form-horizontal .control-label,
+.form-horizontal .radio,
+.form-horizontal .checkbox,
 .form-horizontal .radio-inline,
 .form-horizontal .checkbox-inline {
-  padding-top: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .form-horizontal .form-group:before,
 .form-horizontal .form-group:after {
@@ -308,16 +316,6 @@ textarea.input-lg {
   clear: both;
 }
 @media (min-width: 768px) {
-  .container .form-horizontal .form-group {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-}
-.form-horizontal .form-group .row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-@media (min-width: 768px) {
   .form-horizontal .control-label {
     text-align: right;
   }
@@ -327,7 +325,7 @@ textarea.input-lg {
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
   vertical-align: middle;
@@ -738,7 +736,7 @@ button,
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
   vertical-align: middle;
