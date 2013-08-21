@@ -802,6 +802,9 @@ body {
 #layout-footer #footer-sig .zone-footer .user-display {
   margin-left: 30px;
 }
+.zone {
+  padding: 1rem;
+}
 *,
 *:before,
 *:after {
