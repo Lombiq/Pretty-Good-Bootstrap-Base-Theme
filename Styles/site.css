@@ -2687,6 +2687,10 @@ fieldset ol li,
   .widget-menu-widget .menu > li > a {
     text-align: center;
   }
+  .widget-menu-widget .menu > li {
+    display: table-cell;
+    width: 1%;
+  }
 }
 @media (min-width: 48em) and (min-width: 768px) {
   .widget-menu-widget .menu .nav-justified > li {

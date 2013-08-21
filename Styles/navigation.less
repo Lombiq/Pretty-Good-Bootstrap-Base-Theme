@@ -21,25 +21,32 @@
             float: none;
         }
 
-        li.dropdown
-        {
-            > ul
+            li.dropdown
             {
-                .dropdown-menu;
-                left: auto;
-                top: auto;
-                margin-top: 0;
-            }
+                > ul
+                {
+                    .dropdown-menu;
+                    left: auto;
+                    top: auto;
+                    margin-top: 0;
+                }
 
-            &:hover > ul
-            {
-                display: block;
+                &:hover > ul
+                {
+                    display: block;
+                }
             }
-        }
 
         @media (min-width: @grid-float-breakpoint)
         {
             .nav-justified;
+
+            // Copying this from navs.less is necessary, see: https://github.com/less/less.js/issues/1502
+            > li
+            {
+                display: table-cell;
+                width: 1%;
+            }
         }
 
         > li.current > a
