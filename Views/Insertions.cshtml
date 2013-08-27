@@ -15,7 +15,7 @@
     // See with the debugger what Layout has, so where you can insert shapes
 
     // The Analytics script is only displayed if the site is live.
-    if (WorkContext.HttpContext.Request.Url.Host == new Uri(WorkContext.CurrentSite.BaseUrl).Host)
+    if (!String.IsNullOrEmpty(WorkContext.CurrentSite.BaseUrl) && WorkContext.HttpContext.Request.Url.Host == new Uri(WorkContext.CurrentSite.BaseUrl).Host)
     {
         Layout.Head.Add(New.Analytics(), "5");
     }
