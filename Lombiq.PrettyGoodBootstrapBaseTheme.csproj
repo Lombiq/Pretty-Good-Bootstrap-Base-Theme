@@ -251,6 +251,9 @@
     <Content Include="Styles\general.css">
       <DependentUpon>general.less</DependentUpon>
     </Content>
+    <Content Include="Styles\media.css">
+      <DependentUpon>media.less</DependentUpon>
+    </Content>
     <Content Include="Styles\misc.css">
       <DependentUpon>misc.less</DependentUpon>
     </Content>
@@ -369,6 +372,9 @@
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Bootstrap\less\glyphicons.less" />
     <Content Include="Content\Bootstrap\less\theme.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\media.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
