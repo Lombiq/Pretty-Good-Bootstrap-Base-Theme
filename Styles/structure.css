@@ -1,4 +1,4 @@
-﻿/* Structure
+/* Structure
 ***************************************************************/
 * {
   -webkit-box-sizing: border-box;
@@ -17,11 +17,7 @@ body {
 #layout-wrapper:before,
 #layout-wrapper:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-wrapper:after {
   clear: both;
@@ -33,11 +29,7 @@ body {
 #layout-wrapper #layout-header:before,
 #layout-wrapper #layout-header:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-wrapper #layout-header:after {
   clear: both;
@@ -62,11 +54,7 @@ body {
 #layout-wrapper #layout-navigation:before,
 #layout-wrapper #layout-navigation:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-wrapper #layout-navigation:after {
   clear: both;
@@ -91,11 +79,7 @@ body {
 #layout-wrapper #layout-featured:before,
 #layout-wrapper #layout-featured:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-wrapper #layout-featured:after {
   clear: both;
@@ -120,11 +104,7 @@ body {
 #layout-wrapper #layout-before-main:before,
 #layout-wrapper #layout-before-main:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-wrapper #layout-before-main:after {
   clear: both;
@@ -149,11 +129,7 @@ body {
 #layout-main-container:before,
 #layout-main-container:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-main-container:after {
   clear: both;
@@ -189,11 +165,7 @@ body {
 #layout-main-container #layout-content #content:after,
 #layout-main-container #layout-content #after-content:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-main-container #layout-content #messages:after,
 #layout-main-container #layout-content #before-content:after,
@@ -270,11 +242,7 @@ body {
 #layout-after-main:before,
 #layout-after-main:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-after-main:after {
   clear: both;
@@ -299,11 +267,7 @@ body {
 #layout-tripel-container:before,
 #layout-tripel-container:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-tripel-container:after {
   clear: both;
@@ -378,11 +342,7 @@ body {
 #layout-footer #footer-quad:before,
 #layout-footer #footer-quad:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-footer #footer-quad:after {
   clear: both;
@@ -534,11 +494,7 @@ body {
 #layout-footer #footer-sig:before,
 #layout-footer #footer-sig:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 #layout-footer #footer-sig:after {
   clear: both;

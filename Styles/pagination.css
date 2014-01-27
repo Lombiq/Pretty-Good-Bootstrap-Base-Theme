@@ -1,4 +1,4 @@
-﻿.pager {
+.pager {
   padding-left: 0;
   margin: 20px 0;
   list-style: none;
@@ -7,11 +7,7 @@
 .pager:before,
 .pager:after {
   content: " ";
-  /* 1 */
-
   display: table;
-  /* 2 */
-
 }
 .pager:after {
   clear: both;
@@ -98,6 +94,8 @@
   cursor: default;
 }
 .pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
@@ -188,6 +186,8 @@
   cursor: default;
 }
 .pager > .disabled > span,
+.pager > .disabled > span:hover,
+.pager > .disabled > span:focus,
 .pager > .disabled > a,
 .pager > .disabled > a:hover,
 .pager > .disabled > a:focus {

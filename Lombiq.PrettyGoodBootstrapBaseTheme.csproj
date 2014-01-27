@@ -71,28 +71,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\.editorconfig" />
+    <Content Include="Content\Bootstrap\.gitattributes" />
     <Content Include="Content\Bootstrap\.gitignore" />
     <Content Include="Content\Bootstrap\.travis.yml" />
-    <Content Include="Content\Bootstrap\assets\css\docs.css" />
-    <Content Include="Content\Bootstrap\assets\css\pygments-manni.css" />
-    <Content Include="Content\Bootstrap\assets\ico\apple-touch-icon-114-precomposed.png" />
-    <Content Include="Content\Bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" />
-    <Content Include="Content\Bootstrap\assets\ico\apple-touch-icon-57-precomposed.png" />
-    <Content Include="Content\Bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" />
-    <Content Include="Content\Bootstrap\assets\ico\favicon.png" />
-    <Content Include="Content\Bootstrap\assets\js\application.js" />
-    <Content Include="Content\Bootstrap\assets\js\customizer.js" />
-    <Content Include="Content\Bootstrap\assets\js\filesaver.js" />
-    <Content Include="Content\Bootstrap\assets\js\holder.js" />
-    <Content Include="Content\Bootstrap\assets\js\html5shiv.js" />
-    <Content Include="Content\Bootstrap\assets\js\jquery.js" />
-    <Content Include="Content\Bootstrap\assets\js\jszip.js" />
-    <Content Include="Content\Bootstrap\assets\js\less.js" />
-    <Content Include="Content\Bootstrap\assets\js\raw-files.js" />
-    <Content Include="Content\Bootstrap\assets\js\respond.min.js" />
-    <Content Include="Content\Bootstrap\assets\js\uglify.js" />
+    <Content Include="Content\Bootstrap\about.html" />
     <Content Include="Content\Bootstrap\bower.json" />
-    <Content Include="Content\Bootstrap\browserstack.json" />
     <Content Include="Content\Bootstrap\CNAME" />
     <Content Include="Content\Bootstrap\components.html" />
     <Content Include="Content\Bootstrap\composer.json" />
@@ -103,9 +86,25 @@
     <Content Include="Content\Bootstrap\dist\css\bootstrap-theme.min.css" />
     <Content Include="Content\Bootstrap\dist\css\bootstrap.css" />
     <Content Include="Content\Bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Bootstrap\dist\js\bootstrap.js" />
     <Content Include="Content\Bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Content\Bootstrap\docs-assets\css\docs.css" />
+    <Content Include="Content\Bootstrap\docs-assets\css\pygments-manni.css" />
+    <Content Include="Content\Bootstrap\docs-assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="Content\Bootstrap\docs-assets\ico\favicon.png" />
+    <Content Include="Content\Bootstrap\docs-assets\js\application.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\customizer.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\filesaver.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\holder.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\ie8-responsive-file-warning.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\jszip.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\less.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\raw-files.js" />
+    <Content Include="Content\Bootstrap\docs-assets\js\uglify.js" />
     <Content Include="Content\Bootstrap\examples\carousel\carousel.css" />
     <Content Include="Content\Bootstrap\examples\carousel\index.html" />
     <Content Include="Content\Bootstrap\examples\grid\grid.css" />
@@ -152,7 +151,10 @@
     <Content Include="Content\Bootstrap\examples\sticky-footer\sticky-footer.css" />
     <Content Include="Content\Bootstrap\examples\theme\index.html" />
     <Content Include="Content\Bootstrap\examples\theme\theme.css" />
+    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\Bootstrap\getting-started.html" />
     <Content Include="Content\Bootstrap\Gruntfile.js" />
     <Content Include="Content\Bootstrap\index.html" />
@@ -169,8 +171,6 @@
     <Content Include="Content\Bootstrap\js\scrollspy.js" />
     <Content Include="Content\Bootstrap\js\tab.js" />
     <Content Include="Content\Bootstrap\js\tests\index.html" />
-    <Content Include="Content\Bootstrap\js\tests\phantom.js" />
-    <Content Include="Content\Bootstrap\js\tests\server.js" />
     <Content Include="Content\Bootstrap\js\tests\unit\affix.js" />
     <Content Include="Content\Bootstrap\js\tests\unit\alert.js" />
     <Content Include="Content\Bootstrap\js\tests\unit\button.js" />
@@ -201,6 +201,7 @@
     <Content Include="Content\Bootstrap\less\component-animations.less" />
     <Content Include="Content\Bootstrap\less\dropdowns.less" />
     <Content Include="Content\Bootstrap\less\forms.less" />
+    <Content Include="Content\Bootstrap\less\glyphicons.less" />
     <Content Include="Content\Bootstrap\less\grid.less" />
     <Content Include="Content\Bootstrap\less\input-groups.less" />
     <Content Include="Content\Bootstrap\less\jumbotron.less" />
@@ -221,6 +222,7 @@
     <Content Include="Content\Bootstrap\less\responsive-utilities.less" />
     <Content Include="Content\Bootstrap\less\scaffolding.less" />
     <Content Include="Content\Bootstrap\less\tables.less" />
+    <Content Include="Content\Bootstrap\less\theme.less" />
     <Content Include="Content\Bootstrap\less\thumbnails.less" />
     <Content Include="Content\Bootstrap\less\tooltip.less" />
     <Content Include="Content\Bootstrap\less\type.less" />
@@ -234,6 +236,7 @@
     <Content Include="Content\Bootstrap\_includes\ads.html" />
     <Content Include="Content\Bootstrap\_includes\footer.html" />
     <Content Include="Content\Bootstrap\_includes\header.html" />
+    <Content Include="Content\Bootstrap\_includes\nav-about.html" />
     <Content Include="Content\Bootstrap\_includes\nav-components.html" />
     <Content Include="Content\Bootstrap\_includes\nav-css.html" />
     <Content Include="Content\Bootstrap\_includes\nav-customize.html" />
@@ -368,17 +371,16 @@
     <Content Include="Views\Analytics.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\Bootstrap\less\glyphicons.less" />
-    <Content Include="Content\Bootstrap\less\theme.less" />
+    <Content Include="Styles\media.less" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\media.less" />
+    <Content Include="Content\Bootstrap\DOCS-LICENSE" />
+    <Content Include="Content\Bootstrap\LICENSE-MIT" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Bootstrap\assets\css\" />
+    <Folder Include="Content\Bootstrap\assets\ico\" />
+    <Folder Include="Content\Bootstrap\assets\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
