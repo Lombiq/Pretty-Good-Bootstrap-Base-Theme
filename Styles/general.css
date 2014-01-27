@@ -91,7 +91,10 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.widget h1,
+.widget .projection-list h1,
+.widget .content-items h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
@@ -122,17 +125,17 @@ h6 .small,
 .h5 .small,
 .h6 .small,
 .zone-content .projection-list h1,
-.zone-content .content-items h1,
-.widget h1,
-.widget .projection-list h1,
-.widget .content-items h1 {
+.zone-content .content-items h1 {
   font-weight: normal;
   line-height: 1;
   color: #999999;
 }
 h1,
 h2,
-h3 {
+h3,
+.widget h1,
+.widget .projection-list h1,
+.widget .content-items h1 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -143,10 +146,7 @@ h1 .small,
 h2 .small,
 h3 .small,
 .zone-content .projection-list h1,
-.zone-content .content-items h1,
-.widget h1,
-.widget .projection-list h1,
-.widget .content-items h1 {
+.zone-content .content-items h1 {
   font-size: 65%;
 }
 h4,
@@ -168,11 +168,14 @@ h1,
   font-size: 36px;
 }
 h2,
-.h2 {
+.h2,
+.widget h1 {
   font-size: 30px;
 }
 h3,
-.h3 {
+.h3,
+.widget .projection-list h1,
+.widget .content-items h1 {
   font-size: 24px;
 }
 h4,
