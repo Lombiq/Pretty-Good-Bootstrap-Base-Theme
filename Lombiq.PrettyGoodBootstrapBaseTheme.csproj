@@ -286,7 +286,6 @@
     </Content>
     <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
     <Content Include="Content\Web.config" />
     <Content Include="Theme.txt" />
