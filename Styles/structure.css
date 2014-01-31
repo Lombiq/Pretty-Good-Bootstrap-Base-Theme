@@ -14,25 +14,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-#layout-wrapper:before,
-#layout-wrapper:after {
-  content: " ";
-  display: table;
-}
-#layout-wrapper:after {
-  clear: both;
-}
 #layout-wrapper #layout-header {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-wrapper #layout-header:before,
-#layout-wrapper #layout-header:after {
-  content: " ";
-  display: table;
-}
-#layout-wrapper #layout-header:after {
-  clear: both;
 }
 #layout-wrapper #layout-header #header {
   position: relative;
@@ -51,14 +35,6 @@ body {
   margin-left: -15px;
   margin-right: -15px;
 }
-#layout-wrapper #layout-navigation:before,
-#layout-wrapper #layout-navigation:after {
-  content: " ";
-  display: table;
-}
-#layout-wrapper #layout-navigation:after {
-  clear: both;
-}
 #layout-wrapper #layout-navigation .zone-navigation {
   position: relative;
   float: left;
@@ -75,14 +51,6 @@ body {
 #layout-wrapper #layout-featured {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-wrapper #layout-featured:before,
-#layout-wrapper #layout-featured:after {
-  content: " ";
-  display: table;
-}
-#layout-wrapper #layout-featured:after {
-  clear: both;
 }
 #layout-wrapper #layout-featured .zone-featured {
   position: relative;
@@ -101,14 +69,6 @@ body {
   margin-left: -15px;
   margin-right: -15px;
 }
-#layout-wrapper #layout-before-main:before,
-#layout-wrapper #layout-before-main:after {
-  content: " ";
-  display: table;
-}
-#layout-wrapper #layout-before-main:after {
-  clear: both;
-}
 #layout-wrapper #layout-before-main .zone-before-main {
   position: relative;
   float: left;
@@ -125,14 +85,6 @@ body {
 #layout-main-container {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-main-container:before,
-#layout-main-container:after {
-  content: " ";
-  display: table;
-}
-#layout-main-container:after {
-  clear: both;
 }
 #layout-main-container #layout-content {
   position: relative;
@@ -155,23 +107,6 @@ body {
   margin-right: -15px;
   margin-left: 0;
   margin-right: 0;
-}
-#layout-main-container #layout-content #messages:before,
-#layout-main-container #layout-content #before-content:before,
-#layout-main-container #layout-content #content:before,
-#layout-main-container #layout-content #after-content:before,
-#layout-main-container #layout-content #messages:after,
-#layout-main-container #layout-content #before-content:after,
-#layout-main-container #layout-content #content:after,
-#layout-main-container #layout-content #after-content:after {
-  content: " ";
-  display: table;
-}
-#layout-main-container #layout-content #messages:after,
-#layout-main-container #layout-content #before-content:after,
-#layout-main-container #layout-content #content:after,
-#layout-main-container #layout-content #after-content:after {
-  clear: both;
 }
 .aside-1 #layout-main-container #aside-first,
 .aside-2 #layout-main-container #aside-first,
@@ -239,14 +174,6 @@ body {
   margin-left: -15px;
   margin-right: -15px;
 }
-#layout-after-main:before,
-#layout-after-main:after {
-  content: " ";
-  display: table;
-}
-#layout-after-main:after {
-  clear: both;
-}
 #layout-after-main .zone-after-main {
   position: relative;
   float: left;
@@ -263,14 +190,6 @@ body {
 #layout-tripel-container {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-tripel-container:before,
-#layout-tripel-container:after {
-  content: " ";
-  display: table;
-}
-#layout-tripel-container:after {
-  clear: both;
 }
 #layout-tripel-container #tripel-first,
 #layout-tripel-container #tripel-second,
@@ -338,14 +257,6 @@ body {
 #layout-footer #footer-quad {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-footer #footer-quad:before,
-#layout-footer #footer-quad:after {
-  content: " ";
-  display: table;
-}
-#layout-footer #footer-quad:after {
-  clear: both;
 }
 #layout-footer #footer-quad #footer-quad-first,
 #layout-footer #footer-quad #footer-quad-second,
@@ -490,14 +401,6 @@ body {
 #layout-footer #footer-sig {
   margin-left: -15px;
   margin-right: -15px;
-}
-#layout-footer #footer-sig:before,
-#layout-footer #footer-sig:after {
-  content: " ";
-  display: table;
-}
-#layout-footer #footer-sig:after {
-  clear: both;
 }
 #layout-footer #footer-sig .zone-footer {
   position: relative;

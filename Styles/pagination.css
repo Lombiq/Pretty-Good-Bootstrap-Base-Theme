@@ -4,14 +4,6 @@
   list-style: none;
   text-align: center;
 }
-.pager:before,
-.pager:after {
-  content: " ";
-  display: table;
-}
-.pager:after {
-  clear: both;
-}
 .pager li {
   display: inline;
 }
@@ -60,6 +52,7 @@
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
+  color: #428bca;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -79,7 +72,9 @@
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
+  color: #2a6496;
   background-color: #eeeeee;
+  border-color: #dddddd;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -152,6 +147,7 @@
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
+  color: #428bca;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -171,7 +167,9 @@
 .pager > li > span:hover,
 .pager > li > a:focus,
 .pager > li > span:focus {
+  color: #2a6496;
   background-color: #eeeeee;
+  border-color: #dddddd;
 }
 .pager > .active > a,
 .pager > .active > span,
