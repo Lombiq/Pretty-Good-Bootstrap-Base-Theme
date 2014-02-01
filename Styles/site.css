@@ -1,3 +1,6 @@
+/* Site
+   The root stylesheet, importing everything. The single stylesheet that's included and that imports all other styles.
+***************************************************************/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -259,7 +262,16 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+/* Breadcrumbs
+   Imports styles needed for removing browser inconsistencies.
+***************************************************************//* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
 /* Structure
+   Only structure-related styles, mainly applying Bootstrap's grid system to Orchard's default markup.
 ***************************************************************/
 * {
   -webkit-box-sizing: border-box;
@@ -1130,6 +1142,7 @@ address {
   line-height: 1.428571429;
 }
 /* Typography
+   Typography styling for various cases.
 ***************************************************************/
 /* Headings */
 .zone-content > .content-item:first-of-type > header h1,
@@ -2155,6 +2168,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 /* Forms
+   Forms-related styling.
 ***************************************************************/
 select:focus,
 textarea:focus,
@@ -2327,6 +2341,7 @@ fieldset ol li,
   margin: 0 0 .4615em 0;
 }
 /* General
+   Imports some styles generally needed from Bootstrap and from PGBBT.
 ***************************************************************/.nav {
   margin-bottom: 0;
   padding-left: 0;
@@ -2660,6 +2675,7 @@ fieldset ol li,
   }
 }
 /* Navigation
+   Navigation-related stylings.
 ***************************************************************/
 .widget-menu-widget .menu {
   margin-bottom: 0;
@@ -2817,6 +2833,7 @@ fieldset ol li,
   color: #999999;
 }
 /* Breadcrumbs
+   Styling for menu breadcrumb widgets.
 ***************************************************************/
 .pager {
   padding-left: 0;
@@ -2950,6 +2967,7 @@ fieldset ol li,
   border-top-right-radius: 3px;
 }
 /* Pagination
+   Styling for pagers.
 ***************************************************************/
 .pager {
   display: inline-block;
@@ -3088,6 +3106,7 @@ fieldset ol li,
   color: #843534;
 }
 /* Misc
+   Various formatting not belonging elsewhere.
 ***************************************************************/
 /* Metadata */
 .metadata {
@@ -3247,6 +3266,7 @@ ol {
 }
 /* Images */
 /* Media
+   Styling for embedded media like videos.
 ***************************************************************/
 .embed-container {
   position: relative;

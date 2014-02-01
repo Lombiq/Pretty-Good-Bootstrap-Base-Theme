@@ -1,4 +1,11 @@
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
 /* Structure
+   Only structure-related styles, mainly applying Bootstrap's grid system to Orchard's default markup.
 ***************************************************************/
 * {
   -webkit-box-sizing: border-box;

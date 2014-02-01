@@ -1,3 +1,9 @@
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
 fieldset {
   padding: 0;
   margin: 0;
@@ -732,6 +738,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 /* Forms
+   Forms-related styling.
 ***************************************************************/
 select:focus,
 textarea:focus,

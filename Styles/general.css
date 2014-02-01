@@ -1,3 +1,9 @@
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -99,6 +105,8 @@ h6,
 .h4,
 .h5,
 .h6,
+.zone-content .projection-list h1,
+.zone-content .content-items h1,
 .widget h1,
 .widget .projection-list h1,
 .widget .content-items h1 {
@@ -130,9 +138,7 @@ h6 .small,
 .h3 .small,
 .h4 .small,
 .h5 .small,
-.h6 .small,
-.zone-content .projection-list h1,
-.zone-content .content-items h1 {
+.h6 .small {
   font-weight: normal;
   line-height: 1;
   color: #999999;
@@ -143,6 +149,8 @@ h2,
 .h2,
 h3,
 .h3,
+.zone-content .projection-list h1,
+.zone-content .content-items h1,
 .widget h1,
 .widget .projection-list h1,
 .widget .content-items h1 {
@@ -160,9 +168,7 @@ h1 .small,
 h2 .small,
 .h2 .small,
 h3 .small,
-.h3 .small,
-.zone-content .projection-list h1,
-.zone-content .content-items h1 {
+.h3 .small {
   font-size: 65%;
 }
 h4,
@@ -194,6 +200,8 @@ h1,
 }
 h2,
 .h2,
+.zone-content .projection-list h1,
+.zone-content .content-items h1,
 .widget h1 {
   font-size: 30px;
 }
@@ -439,6 +447,7 @@ address {
   line-height: 1.428571429;
 }
 /* Typography
+   Typography styling for various cases.
 ***************************************************************/
 /* Headings */
 .zone-content > .content-item:first-of-type > header h1,
@@ -1464,6 +1473,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 /* Forms
+   Forms-related styling.
 ***************************************************************/
 select:focus,
 textarea:focus,
@@ -1636,4 +1646,5 @@ fieldset ol li,
   margin: 0 0 .4615em 0;
 }
 /* General
+   Imports some styles generally needed from Bootstrap and from PGBBT.
 ***************************************************************/

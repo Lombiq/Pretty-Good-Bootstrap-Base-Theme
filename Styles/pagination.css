@@ -1,3 +1,9 @@
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
 .pager {
   padding-left: 0;
   margin: 20px 0;
@@ -130,6 +136,7 @@
   border-top-right-radius: 3px;
 }
 /* Pagination
+   Styling for pagers.
 ***************************************************************/
 .pager {
   display: inline-block;

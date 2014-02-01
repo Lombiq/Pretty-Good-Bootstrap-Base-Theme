@@ -1,4 +1,10 @@
-﻿.breadcrumb {
+/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+/* Common
+   Common imports needed in every PGBBT LESS file.
+***************************************************************/
+.breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
@@ -18,4 +24,5 @@
   color: #999999;
 }
 /* Breadcrumbs
+   Styling for menu breadcrumb widgets.
 ***************************************************************/
