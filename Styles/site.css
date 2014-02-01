@@ -2267,6 +2267,9 @@ button,
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
 }
 input[type="submit"]:focus,
 input[type="button"]:focus,
@@ -2318,6 +2321,114 @@ fieldset[disabled] .button {
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+button:focus,
+.button:focus,
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active,
+.button:active,
+input[type="submit"].active,
+input[type="button"].active,
+button.active,
+.button.active,
+.open .dropdown-toggleinput[type="submit"],
+.open .dropdown-toggleinput[type="button"],
+.open .dropdown-togglebutton,
+.open .dropdown-toggle.button {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+input[type="submit"]:active,
+input[type="button"]:active,
+button:active,
+.button:active,
+input[type="submit"].active,
+input[type="button"].active,
+button.active,
+.button.active,
+.open .dropdown-toggleinput[type="submit"],
+.open .dropdown-toggleinput[type="button"],
+.open .dropdown-togglebutton,
+.open .dropdown-toggle.button {
+  background-image: none;
+}
+input[type="submit"].disabled,
+input[type="button"].disabled,
+button.disabled,
+.button.disabled,
+input[type="submit"][disabled],
+input[type="button"][disabled],
+button[disabled],
+.button[disabled],
+fieldset[disabled] input[type="submit"],
+fieldset[disabled] input[type="button"],
+fieldset[disabled] button,
+fieldset[disabled] .button,
+input[type="submit"].disabled:hover,
+input[type="button"].disabled:hover,
+button.disabled:hover,
+.button.disabled:hover,
+input[type="submit"][disabled]:hover,
+input[type="button"][disabled]:hover,
+button[disabled]:hover,
+.button[disabled]:hover,
+fieldset[disabled] input[type="submit"]:hover,
+fieldset[disabled] input[type="button"]:hover,
+fieldset[disabled] button:hover,
+fieldset[disabled] .button:hover,
+input[type="submit"].disabled:focus,
+input[type="button"].disabled:focus,
+button.disabled:focus,
+.button.disabled:focus,
+input[type="submit"][disabled]:focus,
+input[type="button"][disabled]:focus,
+button[disabled]:focus,
+.button[disabled]:focus,
+fieldset[disabled] input[type="submit"]:focus,
+fieldset[disabled] input[type="button"]:focus,
+fieldset[disabled] button:focus,
+fieldset[disabled] .button:focus,
+input[type="submit"].disabled:active,
+input[type="button"].disabled:active,
+button.disabled:active,
+.button.disabled:active,
+input[type="submit"][disabled]:active,
+input[type="button"][disabled]:active,
+button[disabled]:active,
+.button[disabled]:active,
+fieldset[disabled] input[type="submit"]:active,
+fieldset[disabled] input[type="button"]:active,
+fieldset[disabled] button:active,
+fieldset[disabled] .button:active,
+input[type="submit"].disabled.active,
+input[type="button"].disabled.active,
+button.disabled.active,
+.button.disabled.active,
+input[type="submit"][disabled].active,
+input[type="button"][disabled].active,
+button[disabled].active,
+.button[disabled].active,
+fieldset[disabled] input[type="submit"].active,
+fieldset[disabled] input[type="button"].active,
+fieldset[disabled] button.active,
+fieldset[disabled] .button.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+input[type="submit"] .badge,
+input[type="button"] .badge,
+button .badge,
+.button .badge {
+  color: #ffffff;
+  background-color: #333333;
 }
 input[type="checkbox"] {
   margin: .2em 0 1.2em 0;
