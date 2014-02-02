@@ -342,7 +342,9 @@
   <ItemGroup>
     <Content Include="Styles\media.less" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\.editorconfig" />
     <Content Include="Content\Bootstrap\.travis.yml" />
