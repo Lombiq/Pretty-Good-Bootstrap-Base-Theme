@@ -301,9 +301,6 @@
     <Content Include="Views\Branding.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\BadgeOfHonor.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Styles\structure.less" />
   </ItemGroup>
   <ItemGroup>

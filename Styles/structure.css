@@ -422,12 +422,8 @@ body {
     width: 100%;
   }
 }
-#layout-footer #footer-sig .zone-footer .credits,
 #layout-footer #footer-sig .zone-footer .user-display {
-  display: inline-block;
-}
-#layout-footer #footer-sig .zone-footer .user-display {
-  margin-left: 30px;
+  text-align: center;
 }
 .zone {
   padding: 1rem;
