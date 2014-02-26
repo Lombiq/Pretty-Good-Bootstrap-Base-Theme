@@ -264,7 +264,8 @@ th {
 }
 /* Breadcrumbs
    Imports styles needed for removing browser inconsistencies.
-***************************************************************//* Breadcrumbs
+***************************************************************/
+/* Breadcrumbs
    Some LESS variables that you can configure from your derived theme.
 ***************************************************************/
 /* Common
@@ -397,7 +398,7 @@ body {
   .aside-2 #layout-main-container #aside-first,
   .aside-1 #layout-main-container #aside-second,
   .aside-2 #layout-main-container #aside-second {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .aside-1 #layout-main-container #layout-content,
@@ -412,7 +413,7 @@ body {
 @media (min-width: 48em) {
   .aside-1 #layout-main-container #layout-content,
   .aside-2 #layout-main-container #layout-content {
-    width: 66.66666666666666%;
+    width: 66.66666667%;
   }
 }
 .aside-12 #layout-main-container #aside-first,
@@ -495,7 +496,7 @@ body {
   .tripel-123 #layout-tripel-container #tripel-first,
   .tripel-123 #layout-tripel-container #tripel-second,
   .tripel-123 #layout-tripel-container #tripel-third {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .tripel-12 #layout-tripel-container #tripel-first,
@@ -649,7 +650,7 @@ body {
   .split-124 #layout-footer #footer-quad #footer-quad-fourth,
   .split-134 #layout-footer #footer-quad #footer-quad-fourth,
   .split-234 #layout-footer #footer-quad #footer-quad-fourth {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .split-1234 #layout-footer #footer-quad #footer-quad-first,
@@ -712,7 +713,7 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #333333;
   background-color: #ffffff;
 }
@@ -755,7 +756,7 @@ img {
 }
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
@@ -1049,7 +1050,7 @@ dl {
 }
 dt,
 dd {
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 dt {
   font-weight: bold;
@@ -1096,7 +1097,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #999999;
 }
 blockquote footer:before,
@@ -1135,7 +1136,7 @@ blockquote:after {
 address {
   margin-bottom: 20px;
   font-style: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 /* Typography
    Typography styling for various cases.
@@ -1181,7 +1182,7 @@ pre {
   padding: 9.5px;
   margin: 0 0 10px;
   font-size: 13px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
@@ -1219,7 +1220,7 @@ th {
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
@@ -1462,7 +1463,6 @@ input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   /* IE8-9 */
-
   line-height: normal;
 }
 input[type="file"] {
@@ -1487,7 +1487,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #555555;
 }
 .form-control,
@@ -1512,7 +1512,7 @@ input[type="color"] {
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #555555;
   background-color: #ffffff;
   background-image: none;
@@ -1817,7 +1817,7 @@ select[multiple].input-lg {
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2256,7 +2256,7 @@ button,
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border-radius: 4px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2449,7 +2449,8 @@ fieldset ol li,
 }
 /* General
    Imports some styles generally needed from Bootstrap and from PGBBT.
-***************************************************************/.nav {
+***************************************************************/
+.nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
@@ -2502,7 +2503,7 @@ fieldset ol li,
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
@@ -2695,7 +2696,7 @@ fieldset ol li,
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #333333;
   white-space: nowrap;
 }
@@ -2744,7 +2745,7 @@ fieldset ol li,
   display: block;
   padding: 3px 20px;
   font-size: 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #999999;
 }
 .dropdown-backdrop {
@@ -2884,7 +2885,7 @@ fieldset ol li,
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #333333;
   white-space: nowrap;
 }
@@ -2912,11 +2913,11 @@ fieldset ol li,
   }
 }
 @media (min-width: 48em) and (min-width: 768px) {
-  .widget-menu-widget .menu .nav-justified > li {
+  .widget-menu-widget .menu > li {
     display: table-cell;
     width: 1%;
   }
-  .widget-menu-widget .menu .nav-justified > li > a {
+  .widget-menu-widget .menu > li > a {
     margin-bottom: 0;
   }
 }
@@ -2994,7 +2995,7 @@ fieldset ol li,
   position: relative;
   float: left;
   padding: 6px 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   text-decoration: none;
   color: #428bca;
   background-color: #ffffff;
@@ -3090,7 +3091,7 @@ fieldset ol li,
   position: relative;
   float: left;
   padding: 6px 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   text-decoration: none;
   color: #428bca;
   background-color: #ffffff;

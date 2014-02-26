@@ -131,7 +131,7 @@ body {
   .aside-2 #layout-main-container #aside-first,
   .aside-1 #layout-main-container #aside-second,
   .aside-2 #layout-main-container #aside-second {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .aside-1 #layout-main-container #layout-content,
@@ -146,7 +146,7 @@ body {
 @media (min-width: 48em) {
   .aside-1 #layout-main-container #layout-content,
   .aside-2 #layout-main-container #layout-content {
-    width: 66.66666666666666%;
+    width: 66.66666667%;
   }
 }
 .aside-12 #layout-main-container #aside-first,
@@ -229,7 +229,7 @@ body {
   .tripel-123 #layout-tripel-container #tripel-first,
   .tripel-123 #layout-tripel-container #tripel-second,
   .tripel-123 #layout-tripel-container #tripel-third {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .tripel-12 #layout-tripel-container #tripel-first,
@@ -383,7 +383,7 @@ body {
   .split-124 #layout-footer #footer-quad #footer-quad-fourth,
   .split-134 #layout-footer #footer-quad #footer-quad-fourth,
   .split-234 #layout-footer #footer-quad #footer-quad-fourth {
-    width: 33.33333333333333%;
+    width: 33.33333333%;
   }
 }
 .split-1234 #layout-footer #footer-quad #footer-quad-first,

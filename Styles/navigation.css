@@ -57,7 +57,7 @@
 }
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
 }
@@ -250,7 +250,7 @@
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #333333;
   white-space: nowrap;
 }
@@ -299,7 +299,7 @@
   display: block;
   padding: 3px 20px;
   font-size: 12px;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #999999;
 }
 .dropdown-backdrop {
@@ -439,7 +439,7 @@
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #333333;
   white-space: nowrap;
 }
@@ -467,11 +467,11 @@
   }
 }
 @media (min-width: 48em) and (min-width: 768px) {
-  .widget-menu-widget .menu .nav-justified > li {
+  .widget-menu-widget .menu > li {
     display: table-cell;
     width: 1%;
   }
-  .widget-menu-widget .menu .nav-justified > li > a {
+  .widget-menu-widget .menu > li > a {
     margin-bottom: 0;
   }
 }

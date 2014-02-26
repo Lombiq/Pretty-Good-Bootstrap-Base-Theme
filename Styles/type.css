@@ -269,7 +269,7 @@ dl {
 }
 dt,
 dd {
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 dt {
   font-weight: bold;
@@ -316,7 +316,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
   color: #999999;
 }
 blockquote footer:before,
@@ -355,7 +355,7 @@ blockquote:after {
 address {
   margin-bottom: 20px;
   font-style: normal;
-  line-height: 1.428571429;
+  line-height: 1.42857143;
 }
 /* Typography
    Typography styling for various cases.
