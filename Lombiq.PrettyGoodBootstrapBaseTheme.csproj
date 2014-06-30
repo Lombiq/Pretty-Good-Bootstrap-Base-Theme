@@ -422,6 +422,9 @@
     <Content Include="Content\Bootstrap\test-infra\uncached-npm-install.sh" />
     <Content Include="Content\Bootstrap\_config.yml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Licence.md" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
