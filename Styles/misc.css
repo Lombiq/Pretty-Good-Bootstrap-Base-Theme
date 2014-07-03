@@ -24,10 +24,12 @@
 .alert > p + p {
   margin-top: 5px;
 }
-.alert-dismissable {
+.alert-dismissable,
+.alert-dismissible {
   padding-right: 35px;
 }
-.alert-dismissable .close {
+.alert-dismissable .close,
+.alert-dismissible .close {
   position: relative;
   top: -2px;
   right: -21px;
@@ -83,7 +85,7 @@
 /* Metadata */
 .metadata {
   margin: 0 0 .9230em 0;
-  color: #999999;
+  color: #777777;
   font-size: 0.846em;
 }
 .metadata .published {
@@ -210,7 +212,7 @@ ol {
 .comments li {
   margin: .9230em 0 0 0;
   padding: 1.25%;
-  border: 1px solid #999999;
+  border: 1px solid #777777;
 }
 .comment {
   margin: 0;
