@@ -497,7 +497,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Licence.md" />
+    <None Include="Licence.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />
