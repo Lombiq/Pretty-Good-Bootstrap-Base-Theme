@@ -537,6 +537,7 @@
     <Content Include="Styles\site.css.map">
       <DependentUpon>site.css</DependentUpon>
     </Content>
+    <Content Include="Views\AdditionalTopResources.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />
