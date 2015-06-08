@@ -3,7 +3,8 @@
     /// Specify resource inclusions here
     /// 
     /// Override in child theme if you want to include different resources.
-    /// To just add to this set, override AdditionalResources.cshtml
+    /// To just add to this set, override AdditionalTopResources.cshtml if you want to add resources to the top or AdditionalResources.cshtml
+    /// to add to the bottom.
     /// </summary>
 }
 
@@ -11,6 +12,8 @@
 @using Orchard.UI.Resources;
 
 @{
+    Display.AdditionalTopResources();
+    
     var theme = WorkContext.CurrentTheme;
     /* Links
     ***************************************************************/
