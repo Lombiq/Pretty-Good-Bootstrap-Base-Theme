@@ -267,6 +267,9 @@ th {
   }
 }
 /* Breadcrumbs
+   Imports styles needed for removing browser inconsistencies.
+***************************************************************/
+/* Breadcrumbs
    Some LESS variables that you can configure from your derived theme.
 ***************************************************************/
 /* Common
@@ -2698,6 +2701,9 @@ fieldset ol li,
 .zone-content fieldset ol li {
   margin: 0 0 .4615em 0;
 }
+/* General
+   Imports some styles generally needed from Bootstrap and from PGBBT.
+***************************************************************/
 .nav {
   margin-bottom: 0;
   padding-left: 0;
@@ -3648,4 +3654,3 @@ ol {
   width: 100%;
   height: 100%;
 }
-/*# sourceMappingURL=site.css.map */
