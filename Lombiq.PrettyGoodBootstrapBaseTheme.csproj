@@ -370,6 +370,9 @@
     <Content Include="Content\Bootstrap\test-infra\uncached-npm-install.sh" />
     <Content Include="Content\Bootstrap\_config.yml" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Styles\icon-fonts.css">
+      <DependentUpon>icon-fonts.less</DependentUpon>
+    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
@@ -469,6 +472,7 @@
     </None>
     <None Include="Licence.md" />
     <Content Include="Views\AdditionalTopResources.cshtml" />
+    <Content Include="Styles\icon-fonts.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />
