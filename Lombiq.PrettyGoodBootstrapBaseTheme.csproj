@@ -14,7 +14,8 @@
     <AssemblyName>Lombiq.PrettyGoodBootstrapBaseTheme</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews Condition=" '$(BuildViews)' == 'true' ">true</MvcBuildViews>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
@@ -369,44 +370,8 @@
     <Content Include="Content\Bootstrap\test-infra\uncached-npm-install.sh" />
     <Content Include="Content\Bootstrap\_config.yml" />
     <Content Include="Images\favicon.ico" />
-    <Content Include="Styles\breadcrumbs.css">
-      <DependentUpon>breadcrumbs.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\common.css">
-      <DependentUpon>common.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\forms.css">
-      <DependentUpon>forms.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\general.css">
-      <DependentUpon>general.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\media.css">
-      <DependentUpon>media.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\misc.css">
-      <DependentUpon>misc.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\navigation.css">
-      <DependentUpon>navigation.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\pagination.css">
-      <DependentUpon>pagination.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\reset.css">
-      <DependentUpon>reset.less</DependentUpon>
-    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\structure.css">
-      <DependentUpon>structure.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\type.css">
-      <DependentUpon>type.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\variables.css">
-      <DependentUpon>variables.less</DependentUpon>
     </Content>
     <Content Include="ThemeZonePreview.png" />
     <Content Include="Web.config" />
@@ -498,6 +463,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Licence.md" />
     <Content Include="Views\AdditionalTopResources.cshtml" />
   </ItemGroup>
@@ -583,7 +552,8 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>45979</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl></IISUrl>
+          <IISUrl>
+          </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://orchard.codeplex.com</CustomServerUrl>
