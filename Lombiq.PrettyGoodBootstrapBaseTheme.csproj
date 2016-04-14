@@ -381,6 +381,9 @@
     <Content Include="Styles\general.css">
       <DependentUpon>general.less</DependentUpon>
     </Content>
+    <Content Include="Styles\icon-fonts.css">
+      <DependentUpon>icon-fonts.less</DependentUpon>
+    </Content>
     <Content Include="Styles\media.css">
       <DependentUpon>media.less</DependentUpon>
     </Content>
@@ -498,6 +501,7 @@
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Licence.md" />
     <Content Include="Views\AdditionalTopResources.cshtml" />
+    <Content Include="Styles\icon-fonts.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />
