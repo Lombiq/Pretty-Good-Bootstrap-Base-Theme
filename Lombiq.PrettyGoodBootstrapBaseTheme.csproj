@@ -470,9 +470,14 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Docs\HowTo.md" />
+    <Content Include="Docs\Purpose.md" />
+    <Content Include="Docs\Structure.md" />
+    <Content Include="Docs\UpdatingBootstrap.md" />
     <None Include="Licence.md" />
     <Content Include="Views\AdditionalTopResources.cshtml" />
     <Content Include="Styles\icon-fonts.less" />
+    <Content Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />
