@@ -10,7 +10,7 @@ We've also created a [complete sample theme](https://github.com/Lombiq/Pretty-Go
 
 PGBBT is the base for the themes of all Lombiq websites, including [Lombiq.com](http://lombiq.com/), [Orchard Dojo](http://orcharddojo.net/) and [DotNest.com](http://dotnest.com/).
 
-The theme is also available for [DotNest](http://dotnest.com/) sites.
+The theme is also available for [DotNest](https://dotnest.com/) sites.
 
 
 ## Documentation
