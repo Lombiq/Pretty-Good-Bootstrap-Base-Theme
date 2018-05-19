@@ -1,0 +1,59 @@
+﻿/* Breadcrumbs
+   Some LESS variables that you can configure from your derived theme.
+***************************************************************/
+.ui-dialog {
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding: 0;
+  position: fixed;
+  top: 3% !important;
+  right: 2%;
+  left: unset !important;
+  width: 400px !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+  background: #333333;
+  border: 1px solid #e5e5e5;
+  min-height: 16.42857143px;
+  padding: 15px;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title {
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+.ui-dialog .ui-dialog-content {
+  font-size: 0.9em;
+  position: relative;
+  padding: 15px;
+}
+.ui-dialog .ui-dialog-buttonpane {
+  padding-left: 0;
+  padding-right: 0;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  width: 100%;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button-text {
+  font-size: 0.9em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:first-child {
+  background-color: #337ab7;
+  margin-right: 10px !important;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:nth-child(2) {
+  background-color: #5bc0de;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-state-default {
+  background: none;
+  color: #ffffff;
+  width: 45% !important;
+  white-space: pre-wrap !important;
+}
+.ui-dialog a {
+  color: #337ab7;
+  outline: none;
+  outline-width: 0px !important;
+}

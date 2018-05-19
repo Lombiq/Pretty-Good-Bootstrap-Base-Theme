@@ -393,6 +393,9 @@
     <Content Include="Content\Bootstrap\test-infra\uncached-npm-install.sh" />
     <Content Include="Content\Bootstrap\_config.yml" />
     <Content Include="Images\favicon.ico" />
+    <Content Include="Styles\consent-banner.css">
+      <DependentUpon>consent-banner.less</DependentUpon>
+    </Content>
     <Content Include="Styles\icon-fonts.css">
       <DependentUpon>icon-fonts.less</DependentUpon>
     </Content>
@@ -486,6 +489,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceManifest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
@@ -501,6 +505,8 @@
     <Content Include="Views\AdditionalTopResources.cshtml" />
     <Content Include="Styles\icon-fonts.less" />
     <Content Include="Readme.md" />
+    <Content Include="Views\Lombiq.Privacy.ConsentBanner.Resources.cshtml" />
+    <Content Include="Styles\consent-banner.less" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\docs\_data\core-team.yml" />

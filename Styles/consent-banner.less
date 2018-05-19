@@ -1,0 +1,68 @@
+﻿@import "variables";
+
+.ui-dialog {
+    background-color: @modal-content-bg;
+    background-clip: padding-box;
+    border: 1px solid @modal-content-fallback-border-color; // Old browsers fallback (ie8 etc).
+    border: 1px solid @modal-content-border-color;
+    border-radius: @border-radius-large;
+    padding: 0;
+    position: fixed;
+    top: 3% !important; // Adding !important for some style to override the inline styling of the jQueryUI dialog.
+    right: 2%;
+    left: unset !important;
+    width: 400px !important;
+
+    .ui-dialog-titlebar {
+        background: @gray-dark;
+        border: 1px solid @modal-header-border-color;
+        min-height: (@modal-title-padding + @modal-title-line-height);
+        padding: @modal-title-padding;
+
+        .ui-dialog-title {
+            color: @gray-lighter;
+            text-transform: uppercase;
+        }
+    }
+
+    .ui-dialog-content {
+        font-size: 0.9em;
+        position: relative;
+        padding: @modal-inner-padding;
+    }
+
+    .ui-dialog-buttonpane {
+        padding-left: 0;
+        padding-right: 0;
+
+        .ui-dialog-buttonset {
+            width: 100%;
+
+            .ui-button-text {
+                font-size: 0.9em;
+            }
+
+            .ui-button:first-child {
+                background-color: @btn-primary-bg;
+                margin-right: 10px !important;
+            }
+
+            .ui-button:nth-child(2) {
+                background-color: @btn-info-bg;
+            }
+
+            .ui-state-default {
+                background: none;
+                color: #ffffff;
+                width: 45% !important;
+                white-space: pre-wrap !important;
+            }
+        }
+    }
+
+    a {
+        color: @link-color;
+        outline: none;
+        outline-width: 0px !important;
+    }
+}

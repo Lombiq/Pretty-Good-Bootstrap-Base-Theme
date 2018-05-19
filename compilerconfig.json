@@ -6,5 +6,9 @@
   {
     "outputFile": "Styles/icon-fonts.css",
     "inputFile": "Styles/icon-fonts.less"
+  },
+  {
+    "outputFile": "Styles/consent-banner.css",
+    "inputFile": "Styles/consent-banner.less"
   }
 ]
