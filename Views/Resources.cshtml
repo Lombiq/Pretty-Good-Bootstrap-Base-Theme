@@ -17,7 +17,7 @@
     var theme = WorkContext.CurrentTheme;
     /* Links
     ***************************************************************/
-    RegisterLink(new LinkEntry { Type = "image/x-icon", Rel = "shortcut icon", Href = Url.Content(theme.Location + "/" + theme.Path + "/Images/" + "favicon.ico") });
+    RegisterLink(new LinkEntry { Type = "image/x-icon", Rel = "shortcut icon", Href = Url.Content(theme.Location + "/" + theme.Path + "/Images/" + "favicon.ico?" + DateTime.UtcNow.Year) });
     SetMeta(new MetaEntry { Name = "viewport", Content = "width=device-width, initial-scale=1.0" }); // Needed for Bootstrap responsiveness
     SetMeta(httpEquiv: "X-UA-Compatible", content: "IE=edge,chrome=1");
         
