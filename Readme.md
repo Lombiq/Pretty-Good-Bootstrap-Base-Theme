@@ -1,8 +1,8 @@
-# Pretty Good Bootstrap Base Theme Orchard Theme Readme
+# Pretty Good Bootstrap Base Theme Orchard Theme
 
 
 
-## Project Description
+## About
 
 An Orchard base theme building on Twitter's Bootstrap framework.
 
@@ -21,14 +21,10 @@ The theme is also available for [DotNest](https://dotnest.com/) sites.
 - [Updating Bootstrap](Docs/UpdatingBootstrap.md)
 
 
-PGBBT currently includes the Bootstrap 3.3.4.
+PGBBT currently includes Bootstrap 3.3.4.
 
-The theme's source is available in two public source repositories, automatically mirrored in both directions with [Git-hg Mirror](https://githgmirror.com):
+## Contributing and support
 
-- [https://bitbucket.org/Lombiq/pretty-good-bootstrap-base-theme](https://bitbucket.org/Lombiq/pretty-good-bootstrap-base-theme) (Mercurial repository)
-- [https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme](https://github.com/Lombiq/Pretty-Good-Bootstrap-Base-Theme) (Git repository)
+Bug reports, feature requests, comments, questions, code contributions, and love letters are warmly welcome, please do so via GitHub issues and pull requests. Please adhere to our [open-source guidelines](https://lombiq.com/open-source-guidelines) while doing so.
 
-Bug reports, feature requests and comments are warmly welcome, **please do so via GitHub**.
-Feel free to send pull requests too, no matter which source repository you choose for this purpose.
-
-This project is developed by [Lombiq Technologies Ltd](https://lombiq.com/). Commercial-grade support is available through Lombiq.
+This project is developed by [Lombiq Technologies](https://lombiq.com/). Commercial-grade support is available through Lombiq.
