@@ -489,10 +489,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="compilerconfig.json" />
-    <None Include="compilerconfig.json.defaults">
+    <Content Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
-    </None>
+    </Content>
     <Content Include="Docs\HowTo.md" />
     <Content Include="Docs\Purpose.md" />
     <Content Include="Docs\Structure.md" />
@@ -594,6 +594,6 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
